@@ -1,0 +1,1 @@
+{"id":"f95515a4-e8ea-48d2-8e05-2872b0679e56","space":3084,"runtime":"nodejs12.x","name":"esebus","path":"o4n5v8","project":"b0aw9ld1","account":"144798365827","region":"us-east-1","deps":["express@^4.17.1"],"envs":null,"public":true,"log_level":"debug","cron":"","reload_deps":false}
