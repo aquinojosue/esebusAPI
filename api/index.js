@@ -4,7 +4,7 @@ const { readFileSync } = require('fs')
 const { join } = require('path')
 const file = readFileSync(join(__dirname, '_files', 'rutas.json'), 'utf8')
 
-
+//Aqui van los json
 const rutasJson = JSON.parse(file)
 const errorJson = {error:'No se encontro el recurso solicitado'}
 
