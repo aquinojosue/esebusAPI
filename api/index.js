@@ -4,7 +4,7 @@ var cors = require('cors')
 
 
 const app = require('express')()
-const file = readFileSync(join(__dirname, '_files', 'consolidado.json'), 'utf8')
+const file = readFileSync(join(__dirname, '_files', 'rutas.json'), 'utf8')
 
 //Cargar el json desde la lectura del archivo anterior
 const rutasJson = JSON.parse(file)
